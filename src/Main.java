@@ -1,6 +1,7 @@
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-import.java.util.Arrays
+import java.util.Arrays;
+
 public class Main {
 
 
@@ -15,8 +16,10 @@ public class Main {
     public static String concatenation(String string, int num) {
         return string + num;
     }
-        String[] Arrays = {"de", "re", "Je", "TR", "WE"};
-        String string = "TY";
+    String[] arraySm = {"uno", "due", "tre", "quattro", "cinque"};
+    String insert = "sono out";
+
+    String[] risultato = Es1.inserisciInArray(arraySm, insert);
 
     }
 }
